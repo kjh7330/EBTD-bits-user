@@ -36,37 +36,37 @@ public class BlindController {
 	public String getThisStopBusRouteList() {
 		return "/blind/user/thisStopBusRouteListForm";
 	}
-	//시각장애인 마이페이지 이동
+	//시각장애인 - 마이페이지 이동
 	@GetMapping(value = "/blind/user/myPageForm")
 	public String myPageForm() {
 		return "/blind/user/myPageForm";
 	}
-	//시각장애인 내 정보 확인페이지 이동
+	//시각장애인 - 내 정보 확인페이지 이동
 	@GetMapping(value = "/blind/user/myInfoForm")
 	public String getMyInfoList() {
 		return "/blind/user/myInfoForm";
 	}
-	//시각장애인 이용 내역페이지 이동
+	//시각장애인 - 이용 내역페이지 이동
 	@GetMapping(value = "/blind/user/reservationHistoryListForm")
 	public String getReservationHistoryList() {
 		return "/blind/user/reservationHistoryListForm";
 	}
-	//시각장애인 이용내역 상세페이지 이동
+	//시각장애인 - 이용내역 상세페이지 이동
 	@GetMapping(value = "/blind/user/reservationHistoryDetailForm")
 	public String getHistoryDetail() {
 		return "/blind/user/reservationHistoryDetailForm";
 	}
-	//시각장애인 고객 소리함페이지 이동 (본인글/답변글)
+	//시각장애인 - 고객 소리함페이지 이동 (본인글/답변글)
 	@GetMapping(value = "/blind/user/myQuestionForm")
 	public String getMyQuestionAnswerList() {
 		return "/blind/user/myQuestionForm";
 	}
-	//시각장애인 고객 소리함 본인글 상세페이지 이동
+	//시각장애인 -  고객 소리함 본인글 상세페이지 이동
 	@GetMapping(value = "/blind/user/myQuestionDetailForm")
 	public String getMyQuestionDetail() {
 		return "/blind/user/myQuestionDetailForm";
 	}
-	//시각장애인 고객 소리함 답변글 상세페이지 이동
+	//시각장애인 - 고객 소리함 답변글 상세페이지 이동
 	@GetMapping(value = "/blind/user/myQuestionAnswerDetailForm")
 	public String getMyQuestionAnswerDetail() {
 		return "/blind/user/myQuestionAnswerDetailForm";
