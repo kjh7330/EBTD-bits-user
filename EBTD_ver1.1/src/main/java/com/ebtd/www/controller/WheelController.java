@@ -6,12 +6,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Controller
 public class WheelController {
 
-	//마이페이지 이동
+	//휠체어 마이페이지 이동
 	@GetMapping(value = "/wheel/user/mypageForm")
 	public String mypageForm() {
 		return "wheel/user/mypageForm";
 	}
-	//이용 내역 목록
+	//휠체어 이용 내역 목록
 	@GetMapping(value = "/wheel/user/reservationHistoryListForm")
 	public String getReservationHistoryList() {
 		return "wheel/user/reservationHistoryListForm";
